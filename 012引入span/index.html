@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>引入span</title>
+	</head>
+	<body>
+		<div style="color: gray;margin: auto;width: 500px;text-align: center;">
+			<p style="text-align: center;">
+				<span style="background-color: gray;color: white;font-size: 24px;">
+					<b>Maven 构建配置文件</b>
+				</span>
+			</p>
+			<p>
+				构建配置文件是一系列的配置项的值，<span style="color: green;">可以用来设置或者覆盖 Maven 构建默认值。</span>
+			</p>
+			<p>
+				<b>使用构建配置文件</b>，你可以为不同的环境，比如说生产环境（Production）和开发（Development）环境，定制构建方式。
+			</p>
+			<p>
+				配置文件在 pom.xml <span style="color: yellow;">文件中使用 activeProfiles</span> 或者 profiles 元素指定，并且可以通过各种方式触发。配置文件在构建时修改 POM，并且用来给参数设定不同的目标环境（比如说，开发（Development）、测试（Testing）和生产环境（Production）中数据库服务器的地址）。
+			</p>
+		</div>
+		
+	</body>
+</html>
